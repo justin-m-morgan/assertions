@@ -39,7 +39,7 @@ defmodule Assertions.MixProject do
     [
       {:ex_doc, "~> 0.34", only: [:dev, :test], runtime: false},
       {:ecto, "~> 3.11", only: [:dev, :test], runtime: false},
-      {:absinthe, "~> 1.7", only: [:dev, :test], runtime: false}
+      {:absinthe, "~> 1.7", only: [:dev, :test], runtime: false, optional: true}
     ]
   end
 end
